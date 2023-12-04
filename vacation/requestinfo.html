@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="wideth=device-width, initial scale=1">
+        <title>Uncharted Waters</title>
+        <meta name="description" content="discover cruise vacations">
+        <meta name="author" content="Caitlin Nettesheim">
+        <link rel="stylesheet" href="travel.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Oxygen:wght@300;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="icon" type="imag/x-icon" href="favicon.ico">
+        
+    </head>
+    <body>
+        <!-- Start of the page header -->
+        <header>
+         
+            <div><h1>Uncharted Waters</h1>
+            <p>Luxury Cruise Line</p></div>
+        </header>
+        <!-- Start of the page navigation -->
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="moreinfo.html">Info</a></li>
+                <li><a href="packages.html">Packages</a></li>
+                <li class="active"><a href="requestinfo.html">Info Request</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+        <!-- Start of the page content -->
+        <main>
+        <h1>Information Request</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+        <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Cell Number*<input type="tel" name="phone" required="987-555-1234"></label>
+        <label>Email*<input type="email" name="email" required></label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Preferred Method</legend>    
+            <label><input type="radio" name="method" value="text">Mobile Text</label>
+            <label><input type="radio" name="method" value="email">Email</label>
+            <label><input type="radio" name="method" value="call">Call</label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Preferred Information</legend>    
+            <label><input type="checkbox" name="Packages" value="chosen">Packages</label>
+            <label><input type="checkbox" name="Deals" value="chosen">Deals</label>
+            <label><input type="checkbox" name="Food" value="chosen">Food Options</label>
+            <label><input type="checkbox" name="Activities" value="chosen">On-ship Activities</label>
+            
+            <label>Preferred Message Frequency
+            <select name="date">
+            <option value="none">Please Select</option>
+            <option value="every day">Every day</option>
+            <option value="once a week">Once a week</option>
+            <option value="twice a month">Twice a month</option>
+            <option value="once a month">Once a month</option>
+            </select>  
+            </label>
+            
+        </fieldset>
+            
+            <label>Comments
+                <textarea name="comments"></textarea>
+            </label>
+            
+            
+        <input type="submit" value="Subscribe">
+        </form>
+        
+ 
+        
+    </main>
+        
+   <footer>
+        <p>&copy; 2023 &bull; Uncharted Waters &bull; <a href="mailto:unchartedwaters@gmail.com">Email Us</a> &bull; <a href="tel:212-257-5600">Call Us</a></p>
+        </footer>
